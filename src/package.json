@@ -7,6 +7,9 @@
   "bin": {
     "ls3": "index.js"
   },
+  "scripts": {
+    "test": "jest"
+  },
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.700.0",
@@ -21,6 +24,8 @@
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-jsx-a11y": "^6.3.0",
     "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.1.0",
+    "nock": "^13.0.2",
     "prettier": "2.0.5"
   }
 }
