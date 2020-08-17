@@ -8,8 +8,6 @@ on:
 
 jobs:
   test:
-    env:
-      working-directory: src/
     runs-on: ubuntu-latest
     strategy:
       matrix:
